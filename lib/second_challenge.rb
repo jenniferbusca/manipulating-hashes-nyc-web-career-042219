@@ -7,7 +7,7 @@ def second_challenge
   }
   array = []
   groceries.each_value do |v|
-    array << (v)
+    array << v
   end
-  return array
+  return array.join
 end
