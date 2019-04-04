@@ -12,5 +12,5 @@ groceries.values.each do |list |
  new_list << list
 
 end
-return new_list
+return new_list.flatten
 end
