@@ -6,8 +6,7 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-array =[values]
-
-  return array
+groceries.each do | k, v|
+  
 
 end
