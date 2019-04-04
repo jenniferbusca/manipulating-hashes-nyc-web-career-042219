@@ -8,6 +8,6 @@ def second_challenge
 
 array =[values]
 
-  
+  return array
 
 end
