@@ -9,5 +9,5 @@ def second_challenge
   groceries.each_value do |v|
     array << v
   end
-  return array.join(" ")
+  return array.join(" .")
 end
