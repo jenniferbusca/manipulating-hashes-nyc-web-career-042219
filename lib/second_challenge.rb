@@ -1,4 +1,3 @@
-def second_challenge
   groceries = {
    dairy: ["milk", "yogurt", "cheese"],
    vegetable: ["carrots", "broccoli", "cucumbers"],
@@ -6,7 +5,11 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-groceries.values
+new_list = []
+
+groceries.values.each do |list | 
+ new_list << list
 
 end
-
+return new_list
+end
